@@ -1,4 +1,4 @@
-import "./css/profileHeader.css";
+import "./css/tprofileHeader.css";
 function ProfileHeader() {
   return (
     <>
