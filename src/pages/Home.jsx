@@ -6,7 +6,6 @@ import {
   MessageBox,
   Post,
   Aside,
-  Search,
   Subscribe,
   TrandingNow,
   WhoToFollow,
