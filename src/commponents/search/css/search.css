@@ -1,0 +1,37 @@
+#search-box {
+    background-color: #fff;
+    z-index: 1;
+}
+
+#search-box label{
+    display: block;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+#search-box label input {
+    width: 100%;
+    padding: 0.8rem 0.5rem 0.8rem 3rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    border: 1px solid #e7e5e5;
+}
+#search-box label input:focus{
+    outline: 0.5px solid var(--logo-color);
+}
+
+#search-box label input:focus button {
+    color: var(--logo-color);
+}
+
+#search-box label button {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #7a7777;
+    transform: translate(-5%,-50%);
+}

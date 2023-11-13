@@ -1,0 +1,13 @@
+#main {
+    display: grid;
+    padding: 0 0 2rem 0;
+}
+
+
+
+.all-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+

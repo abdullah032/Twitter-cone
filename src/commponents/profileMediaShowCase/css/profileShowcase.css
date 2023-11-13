@@ -1,0 +1,13 @@
+.ProfileMediaShowCase {
+    border: 1px solid rgb(212, 211, 211);
+    padding: 1rem;
+    border-radius: 20px;
+}
+.ProfileMediaShowCase .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+}
+.ProfileMediaShowCase .row img {
+    border-radius: 4px;
+}
+

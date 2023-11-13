@@ -1,0 +1,99 @@
+#main-header {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem  1rem 2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: auto;
+    max-height: 100vh;
+    position: sticky;
+    top: 0;
+}
+#main-header .logo {
+    font-size: 2rem;
+    color: var(--logo-color);
+}
+#main-header #main-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    
+}
+#main-header #main-nav ul li a {
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#main-header .pop-up-textarea {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    border: none;
+    background-color:#08a0e9;
+    cursor: pointer;
+    color: #fff;
+}
+
+#main-header .pop-up-textarea:active{
+    transform: scale(0.97);
+}
+
+#main-header .account {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    
+}
+
+
+#main-header .account .text p {
+    margin-top: 0.5rem;
+}
+
+#main-header .account i {
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.popup-post{
+    
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.8);
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.popup-post > * {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 600px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.popup-post>* .fa-times{
+    cursor: pointer;
+}
+@media screen and (min-width:1366px){
+    #main-header {
+        display: flex;
+        
+    }   
+}
+
+@media screen and (max-width:600px){
+    .popup-post>*{
+            min-width:50%;
+    }
+}
