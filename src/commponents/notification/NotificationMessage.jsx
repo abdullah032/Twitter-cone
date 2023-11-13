@@ -1,11 +1,11 @@
 import "./css/notification.css";
-import ik from "../../assets/images/ik.jpg";
+import profile from "../../assets/images/react.svg";
 function NotificationMessage() {
   return (
     <a href="/">
       <div className="wrapper">
         <div className="round-box">
-          <img src={ik} alt="" />
+          <img src={profile} alt="" />
         </div>
         <h4>Imran Khan</h4>
         <p>
