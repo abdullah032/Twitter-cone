@@ -1,6 +1,6 @@
 import "./css/post.css";
 import tick from "../../assets/images/tick.png";
-import media from "../../assets/images/ik.jpg";
+import picture from "../../assets/images/ik.jpg";
 import profile from "../../assets/images/react.svg";
 
 function Post({ number }) {
@@ -23,7 +23,7 @@ function Post({ number }) {
           </p>
         </div>
         <div className="posted-media">
-          <img src={media} alt="" />
+          <img src={picture} alt="" />
         </div>
       </main>
       <footer className="post-footer">
