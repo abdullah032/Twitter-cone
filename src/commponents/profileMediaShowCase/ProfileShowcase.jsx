@@ -1,20 +1,20 @@
 import "./css/profileShowcase.css";
-import ik from "../../assets/images/ik.jpg";
+import profile from "../../assets/images/react.svg";
 function ProfileMediaShowCase() {
   return (
     <div className="ProfileMediaShowCase">
       <div className="row">
         <div className="col">
-          <img src={ik} alt="" />
+          <img src={profile} alt="" />
         </div>
         <div className="col">
-          <img src={ik} alt="" />
+          <img src={profile} alt="" />
         </div>
         <div className="col">
-          <img src={ik} alt="" />
+          <img src={profile} alt="" />
         </div>
         <div className="col">
-          <img src={ik} alt="" />
+          <img src={profile} alt="" />
         </div>
       </div>
     </div>
